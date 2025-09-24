@@ -7,6 +7,7 @@ while(property > 0):
     bet = int(input("请选择下注的金额:"))
     if bet > property:
         print("你的余额不足！！！")
+        continue
     
     print("现在进行第1次投掷...")
     a = random.randrange(1, 7)
